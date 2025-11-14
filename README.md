@@ -1,10 +1,7 @@
-# hiremailai.in
- AI-powered job application system
-
 # HireMail AI 🚀
 **Multi-Agent, LLM-Orchestrated Job Application Automation**
 
-HireMail AI (formerly *GenApply*) is a production-grade system that automates the end-to-end job application workflow — from reading job descriptions to tailoring resumes and cover letters, and finally submitting applications via Gmail. Built for speed, reliability, and precision, the system is designed to give job seekers a measurable edge while preserving security and privacy.
+HireMail AI is a production-grade system that automates the end-to-end job application workflow — from reading job descriptions to tailoring resumes and cover letters, and finally submitting applications via Gmail. Built for speed, reliability, and precision, the system is designed to give job seekers a measurable edge while preserving security and privacy.
 
 ---
 
@@ -16,10 +13,9 @@ HireMail AI automates that pipeline using modern Generative AI techniques so you
 ---
 
 ## Highlights / Impact
-- **Multi-agent architecture** that decomposes the job-application workflow into specialized agents (resume tailoring, cover letter generation, email delivery, monitoring).  
+- **Multi-agent architecture** that decomposes the job-application workflow into specialized agents.  
 - **Auto-Diagnostic Agent** that detects and corrects runtime issues autonomously — improving system reliability by **~60%**.  
 - **LLM Factory Handler** for cost- and accuracy-aware routing across multiple model providers (OpenAI, Mistral, Gemini, Hugging Face Hub).  
-- **One-click application flow**: JD → personalized resume + cover letter → email sent via Gmail API (OAuth2).
 
 ---
 
@@ -62,7 +58,7 @@ HireMail AI automates that pipeline using modern Generative AI techniques so you
 ---
 
 ## Why repository is private
-This system represents a competitive product capability (multi-agent orchestration, reliability heuristics, and provider routing). The codebase and low-level optimizations are intentionally private while the service is being launched and hardened.
+The codebase and low-level optimizations are intentionally private while the service is being launched and hardened.
 
 If you’re a recruiter, hiring manager, or technical collaborator and want a deeper look — I’m happy to share architecture diagrams, design notes, or a controlled demo.
 
@@ -74,15 +70,6 @@ If you’re a recruiter, hiring manager, or technical collaborator and want a de
 - 🔗 **LinkedIn:** [LinkedIn Profile](YOUR_LINKEDIN_URL_HERE)
 
 **Recruiters / Technical Managers:** If you’d like a full architecture walkthrough, technical deep-dive, or live demo, message me — I’m available for a short call or screen share.
-
----
-
-## For reviewers (quick checklist)
-- ✅ Multi-agent decomposition demonstrated  
-- ✅ Automated monitoring & remediation included  
-- ✅ Multi-LLM orchestration and cost/latency routing  
-- ✅ One-click production flow with Gmail integration  
-- ✅ Production considerations: secrets management, retry logic, and observability
 
 ---
 
