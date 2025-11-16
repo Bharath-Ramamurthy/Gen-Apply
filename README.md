@@ -1,5 +1,5 @@
 # HireMail AI 🚀
-**AI  powered Job Application Platform*
+**AI powered Job Application Platform*
 
 HireMail AI is a production-grade system that automates the end-to-end job application workflow — from reading job descriptions to tailoring resumes and cover letters, and finally submitting applications via Gmail. Built for speed, reliability, and precision, the system is designed to give job seekers a measurable edge while preserving security and privacy.
 
