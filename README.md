@@ -15,20 +15,6 @@
 ## HireMail AI – The End-to-End Application Automation Engine
 
 We reduce **hours per application → minutes**, using **multi-agent AI** to analyze, tailor, and submit — all while keeping **you in full control**.
-
----
-
-## App Preview
-
-| Screen | Description |
-|--------|-------------|
-| ![Upload Resume](/assets/screen_shots/1_upload_resume.png) | **Resume Upload** – Secure PDF parsing |
-| ![Job Input](/assets/screen_shots/2_job_input.png) | **Job Details Entry** – Paste JD or link |
-| ![Tailored Resume](/assets/screen_shots/3_tailored_resume.png) | **AI-Tailored Resume** – Role-aligned, keyword-optimized |
-| ![Cover Letter](/assets/screen_shots/4_cover_letter.png) | **Generated Cover Letter** – Concise, recruiter-focused |
-| ![Email Draft](/assets/screen_shots/5_email_draft.png) | **Email Composition** – Ready to review & send |
-| ![Sent Confirmation](/assets/screen_shots/6_sent_confirmation.png) | **Application Sent** – Gmail API delivery with tracking |
-
 ---
 
 ## Core Features
@@ -39,16 +25,17 @@ We reduce **hours per application → minutes**, using **multi-agent AI** to ana
 - - Cost-optimized LLM routing: uses lightweight models for simple tasks, escalates to different modesl for complexity
 
 ---
+
 ## Source Code  
 The source code remains private while the product is being commercialized.  
 For access requests or collaboration:  
 **bharath.workmail@gmail.com**  
+
 ---
 If you’d like a **technical walkthrough** or **architecture explanation**, feel free to contact me via **LinkedIn** or **email**.  
-
 ---
-**Watch Full Demo → [YouTube Video](https://www.youtube.com/watch?v=naVaP0DdNx4)**  
 
+**Watch Full Demo → [YouTube Video](https://www.youtube.com/watch?v=naVaP0DdNx4)**  
 ---
 
 
