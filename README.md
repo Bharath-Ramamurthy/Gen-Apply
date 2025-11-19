@@ -1,42 +1,61 @@
-# hiremailai.in
+# HireMail AI  
 <img src="assets/logo.png" alt="HireMail AI Logo" width="150"/>
 
 **AI-powered Job Application Platform — Automate. Tailor. Apply. Win.**
 
 ---
 
-### The Real Problem in Job Applications
-- Manually reading JDs → rewriting resumes → crafting cover letters → **2–3 hours per application**
-- Repetitive, error-prone, and exhausting when applying at scale
-- Generic templates hurt response rates; tailored content wins — but takes too long
+## 🚀 The Real Problem in Job Applications
+
+- Reading JDs → rewriting resumes → crafting cover letters = **2–3 hours per application**  
+- Repetitive, error-prone, and exhausting when applying at scale  
+- Generic templates hurt response rates — tailored content works, but takes too long  
 
 ---
 
-## HireMail AI – The End-to-End Application Automation Engine
+## 🔥 HireMail AI – End-to-End Application Automation
 
-We reduce **hours per application → minutes**, using **multi-agent AI** to analyze, tailor, and submit — all while keeping **you in full control**.
----
-
-## Core Features
-
-- **Multi-agent architecture** decomposes workflow into specialized, autonomous agents
-- **Auto-Diagnostic Agent** detects and self-corrects runtime issues — improving reliability by **~60%**
-- **LLM Factory Handler** routes tasks across OpenAI, Mistral, Gemini, and Hugging Face — balancing **cost, speed, and accuracy**
-- - Cost-optimized LLM routing: uses lightweight models for simple tasks, escalates to different modesl for complexity
+HireMail AI reduces **hours → minutes** using **multi-agent AI** that analyzes, tailors, and prepares job applications — while keeping *you* fully in control.
 
 ---
 
-## Source Code  
-The source code remains private while the product is being commercialized.  
-For access requests or collaboration:  
-**bharath.workmail@gmail.com**  
+## 🧠 Core Features
+
+### **Multi-Agent System**
+- Specialized autonomous agents handle each step of the workflow
+
+### **Auto-Diagnostic Agent**
+- Detects, reports, and self-corrects runtime issues  
+- Improves reliability by **~60%**
+
+### **LLM Factory Handler**
+- Routes tasks across OpenAI, Mistral, Gemini, and Hugging Face  
+- Chooses the best model based on **cost**, **speed**, and **task complexity**
+
+### **Cost-Optimized LLM Routing**
+- Uses lightweight models for simple tasks  
+- Switches to stronger models only when needed
 
 ---
-If you’d like a **technical walkthrough** or **architecture explanation**, feel free to contact me via **LinkedIn** or **email**.  
+
+## 🔒 Source Code
+
+The source code is private while the product is being commercialized.
+
+For collaboration or access requests:  
+📧 **bharath.workmail@gmail.com**
+
 ---
 
-**Watch Full Demo → [YouTube Video](https://www.youtube.com/watch?v=naVaP0DdNx4)**  
+## 📬 Contact
+
+If you’d like a **technical walkthrough** or **architecture explanation**, feel free to reach out via **LinkedIn** or **email**.
+
 ---
 
+## 🎥 Demo
 
-#Python #GenerativeAI #LLM #MultiAgent #Streamlit #HuggingFace #GmailAPI #OpenAI #PromptEngineering #JobTech #Automation #AIApplications #TechForJobSeekers
+**Watch Full Demo:**  
+👉 https://www.youtube.com/watch?v=naVaP0DdNx4
+
+---
