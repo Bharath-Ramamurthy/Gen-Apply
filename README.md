@@ -25,7 +25,6 @@ Automates resume tailoring, cover letter generation, and job application submiss
 ### 🎯 Launch Target
 * **Public Beta:** Expected **Q2 2026**.
 
-⭐ **Star this repo** to get a notification the moment we clear these hurdles and open the public beta!
 ---
 
 ## 📉 The Real Problem
