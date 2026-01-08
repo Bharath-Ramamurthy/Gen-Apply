@@ -67,7 +67,7 @@ HireMail AI automates the repetitive parts of job hunting while keeping the user
 
 ## 🎥 Demo
 
-▶️ **Watch Full Product Demo**(https://www.youtube.com/watch?v=Y0BHGISzkck)
+▶️ [**Watch Full Demo**](https://www.youtube.com/watch?v=Y0BHGISzkck)
 
 ---
 
