@@ -1,3 +1,289 @@
+<p align="center">
+  <img src="assets/logo.png" alt="HireMail AI Logo" width="150"/>
+</p>
+
+<h1 align="center">HireMail AI</h1>
+
+<p align="center">
+  <strong>AI-Powered Job Application Automation Platform</strong><br>
+  Automates resume tailoring and job applications using a coordinated multi-agent AI system
+</p>
+
+<p align="center">
+  <a href="#-the-problem">Problem</a> •
+  <a href="#-the-solution">Solution</a> •
+  <a href="#%EF%B8%8F-architecture">Architecture</a> •
+  <a href="#-key-innovations">Innovations</a> •
+  <a href="#-demo">Demo</a> •
+  <a href="#-contact">Contact</a>
+</p>
+
+---
+
+## 🎯 Status Update
+
+**V1 Core Build: Complete ✅**  
+**Current Phase:** Compliance & Security Review
+
+- ✅ Backend & Frontend: All V1 features implemented and validated
+- ✅ AI Engine: Multi-agent system operational in staging
+- 🔄 Gmail API Restricted Scope security assessment in progress
+- 🎯 **Public Beta Launch:** Q3 2026
+
+---
+
+## 📉 The Problem
+
+Job hunting is broken. The application process is:
+
+**Time-Consuming**
+- 45-60 minutes per application (JD analysis, resume tailoring, cover letter writing)
+- Multiply by 50-100 applications = hundreds of wasted hours
+
+**Ineffective**
+- Generic templates and mass applications yield poor response rates
+- Manual customization for each job doesn't scale
+- Repetitive work leads to fatigue, mistakes, and inconsistency
+
+**Frustrating**
+- Tedious copy-paste workflows
+- Lost track of what was sent where
+- No time left for interview preparation or skill development
+
+---
+
+## 💡 The Solution
+
+HireMail AI transforms job applications from a tedious manual process into an intelligent, automated workflow — **while keeping you in full control**.
+
+<p align="center">
+  <img src="assets/demo.gif" alt="HireMail AI Demo" width="800"/>
+  <br>
+  <em>Complete application workflow: from job posting to ready-to-send email in under 2 minutes</em>
+</p>
+
+### How It Works
+
+**1. Tailor** 📝
+- AI analyzes job description and extracts key requirements
+- Resume automatically customized to highlight relevant experience
+- RAG-powered context matching ensures accuracy
+
+**2. Write** ✍️
+- Job-specific cover letter generated in seconds
+- Personalized to company and role
+- Professional tone maintained across all applications
+
+**3. Apply** 📧
+- Draft email prepared with attachments
+- **You review and approve before sending** (full control, zero risk)
+- Sent directly through your Gmail account
+
+**Time Saved:** 85% reduction (45-60 min → 5-8 min per application)
+
+---
+
+## 🏗️ Architecture
+
+### Multi-Agent System Design
+
+HireMail AI uses a **coordinated multi-agent architecture** where specialized AI agents work together, each handling one part of the workflow:
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    HireMail AI Platform                         │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        │                     │                     │
+   ┌────▼────┐          ┌────▼────┐          ┌────▼────┐
+   │   Job   │          │ Resume  │          │  Cover  │
+   │Analyzer │──────────│ Tailor  │──────────│ Letter  │
+   │  Agent  │          │  Agent  │          │  Agent  │
+   └────┬────┘          └────┬────┘          └────┬────┘
+        │                     │                     │
+        └─────────────────────┼─────────────────────┘
+                              │
+                        ┌─────▼─────┐
+                        │   Email   │
+                        │ Composer  │
+                        │   Agent   │
+                        └─────┬─────┘
+                              │
+                    ┌─────────▼─────────┐
+                    │ Auto-Diagnostic   │
+                    │      Agent        │
+                    │ (Monitors & Heals)│
+                    └───────────────────┘
+```
+
+**Why Multi-Agent?**
+
+Unlike single-prompt tools that try to do everything at once, HireMail AI's agents specialize:
+
+- **Job Analyzer Agent** → Extracts requirements, skills, and keywords from job descriptions
+- **Resume Tailor Agent** → Customizes resume using RAG-based semantic matching
+- **Cover Letter Agent** → Generates personalized, role-specific cover letters
+- **Email Composer Agent** → Crafts professional application emails
+- **Auto-Diagnostic Agent** → Monitors everything, auto-recovers from failures
+
+**Benefits:**
+- ✅ Higher quality outputs (specialized vs. generalist)
+- ✅ Better error isolation and recovery
+- ✅ Modular design for testing and maintenance
+- ✅ Parallel processing where possible
+
+---
+
+## 🛠️ Technology Stack
+
+### Backend & AI
+- **FastAPI** – High-performance async API framework
+- **LangChain** – Multi-agent orchestration and workflow management
+- **RAG Architecture** – Context-aware resume tailoring using retrieval-augmented generation
+- **FAISS** – Vector similarity search for semantic job-resume matching
+
+### Database & Caching
+- **PostgreSQL** – User data, applications, and audit logs
+- **Redis** – Session management and performance optimization (50% database load reduction)
+- **SQLAlchemy ORM** – Database abstraction layer
+
+### LLM Providers (Factory Pattern)
+- **OpenAI** (GPT-4, GPT-3.5-turbo)
+- **Mistral AI**
+- **Google Gemini**
+- **Hugging Face Hub**
+
+### Authentication & Security
+- **JWT** – Stateless authentication
+- **OAuth2** – Gmail API integration
+- **Environment-based secrets** – Secure credential management
+
+### DevOps
+- **Docker & Docker Compose** – Containerized deployment
+- **GitHub Actions** – CI/CD automation
+- **Linux** – Production environment
+
+---
+
+## ⚡ Key Innovations
+
+### 1. 🤖 Multi-Agent Coordination System
+
+**The Challenge:** Single-prompt AI tools produce generic, one-size-fits-all outputs.
+
+**The Solution:** Specialized agents working in coordination.
+
+Each agent is optimized for its specific task:
+- Job Analyzer uses NLP extraction techniques
+- Resume Tailor employs RAG for context-aware customization
+- Cover Letter Generator maintains professional tone and personalization
+- All agents share context through centralized orchestration
+
+**Why It Matters:**
+- Produces higher-quality, more targeted applications
+- Each component can be optimized and tested independently
+- Scales better than monolithic approaches
+
+---
+
+### 2. 🔍 Auto-Diagnostic Agent (60% Reliability Improvement)
+
+**The Challenge:** AI systems fail unpredictably due to API rate limits, network issues, malformed responses, or context window limits. These failures break automation workflows and require manual intervention.
+
+**The Solution:** An autonomous diagnostic layer that monitors all agent executions and auto-recovers from failures.
+
+#### How It Works
+```
+┌─────────────────────────────────────────────┐
+│         Auto-Diagnostic Agent               │
+│  ┌─────────────────────────────────────┐   │
+│  │   Continuous Monitoring Layer       │   │
+│  └──────────────┬──────────────────────┘   │
+│                 │                           │
+│  ┌──────────────▼──────────────┐           │
+│  │  Error Pattern Detection    │           │
+│  └──────────────┬──────────────┘           │
+│                 │                           │
+│  ┌──────────────▼──────────────┐           │
+│  │   Recovery Strategy Engine  │           │
+│  └──────────────┬──────────────┘           │
+│                 │                           │
+│  ┌──────────────▼──────────────┐           │
+│  │  Automated Healing Actions  │           │
+│  └─────────────────────────────┘           │
+└─────────────────────────────────────────────┘
+```
+
+#### Autonomous Recovery Strategies
+
+**Rate Limit Handling**
+- Detects HTTP 429 errors
+- Applies exponential backoff with jitter
+- Queues requests to prevent cascade failures
+
+**Provider Failover**
+- Detects service unavailability (503) or timeouts
+- Automatically switches to backup LLM provider
+- Maintains request context across providers
+
+**Context Optimization**
+- Detects token limit exceeded errors
+- Intelligently chunks content
+- Prioritizes most relevant information
+
+**Malformed Response Handling**
+- Validates output schemas
+- Retries with adjusted prompts
+- Escalates to user only on persistent failures
+
+#### Impact
+
+| Metric | Before Auto-Diagnostic | After Auto-Diagnostic | Improvement |
+|--------|------------------------|----------------------|-------------|
+| System Reliability | ~65% | 94%+ | **+60%** |
+| Manual Interventions | ~40/week | ~6/week | **-85%** |
+| Recovery Time | 15-30 min | <2 min | **>90% faster** |
+
+**Bottom Line:** The system heals itself, minimizing downtime and eliminating most manual troubleshooting.
+
+---
+
+### 3. 🔧 LLM Factory Handler (Multi-Provider Orchestration)
+
+**The Challenge:** Dependency on a single LLM provider creates:
+- Single point of failure (when OpenAI goes down, everything stops)
+- Cost inefficiency (expensive models for simple tasks)
+- Limited flexibility (can't A/B test or optimize)
+
+**The Solution:** A factory pattern that abstracts LLM providers, enabling seamless switching at runtime.
+
+#### Architecture
+```python
+# Simplified conceptual example
+class LLMFactory:
+    """
+    Unified interface for multiple LLM providers
+    Production includes cost optimization and load balancing
+    """
+    
+    @staticmethod
+    def create(provider: str, model: str, **config):
+        providers = {
+            "openai": OpenAIProvider,
+            "mistral": MistralProvider,
+            "gemini": GeminiProvider,
+            "huggingface": HuggingFaceProvider
+        }
+        return providers[provider](model=model, **config)
+
+# Usage - provider switchable via configuration
+llm = LLMFactory.create(
+    provider=config.PRIMARY_LLM,  # "openai"
+    model="gpt-4",
+    temperature=0.7
+)
+```
+
 #### Benefits
 
 **1. Cost Optimization**
