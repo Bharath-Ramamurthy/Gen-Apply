@@ -63,7 +63,8 @@ Job hunting is broken. The application process is:
 HireMail AI transforms job applications from a tedious manual process into an intelligent, automated workflow — **while keeping you in full control**.
 
 <p align="center">
-  <img src="assets/demo.gif" alt="HireMail AI Demo" width="800"/>
+  <img src="https://raw.githubusercontent.com/Bharath-Ramamurthy/hiremailai.in/main/assets/demo.gif" width="800"/>
+
   <br>
   <em>Complete application workflow: from job posting to ready-to-send email in under 2 minutes</em>
 </p>
