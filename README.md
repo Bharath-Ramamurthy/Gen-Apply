@@ -409,7 +409,7 @@ Currently undergoing Gmail API Restricted Scope security review by Google
 I'm happy to discuss the multi-agent system design, LLM orchestration, or any other technical aspects.
 
 📧 **Email:** bharath.workmail@gmail.com  
-💼 **LinkedIn:** [linkedin.com/in/bharath-r-se](https://linkedin.com/in/bharath-r-se)  
+💼 **LinkedIn:** [https://www.linkedin.com/in/bharath-ramamurthy/](https://www.linkedin.com/in/bharath-ramamurthy/)  
 🎥 **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=Y0BHGISzkck)
 
 **For Recruiters:**  
