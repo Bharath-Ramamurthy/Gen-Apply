@@ -331,8 +331,8 @@ llm = LLMFactory.create(
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/hiremail-ai.git
-cd hiremail-ai
+git clone https://github.com/your-username/gen-apply.git
+cd gen-apply
 ```
 
 ### Environment Variables
