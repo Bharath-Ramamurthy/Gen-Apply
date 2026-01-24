@@ -340,7 +340,7 @@ cd gen-apply
 Create a `.env` file:
 
 ```env
-DATABASE_URL=postgresql://user:password@localhost:5432/hiremail
+DATABASE_URL=postgresql://user:password@localhost:5432/genapply
 REDIS_URL=redis://localhost:6379
 JWT_SECRET=your_secret_key
 PRIMARY_LLM=openai
