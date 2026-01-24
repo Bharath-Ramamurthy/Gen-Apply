@@ -1,0 +1,25 @@
+# Core application dependencies
+streamlit==1.30.0
+python-dotenv==1.0.1
+
+# Language & ML / LLM
+langchain==0.1.16
+transformers==4.41.2
+torch==2.2.2
+
+# Google / Gmail API
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.127.0
+
+# PDF / document processing
+reportlab==4.2.0
+PyPDF2==3.0.1
+pypdf==4.2.0
+pdfplumber==0.10.3
+
+# Utilities / model hub
+huggingface_hub>=0.23.0
+openai==1.29.0
+python-json-logger==2.0.7
+pylatexenc==2.0.0
