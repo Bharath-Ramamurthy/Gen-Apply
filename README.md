@@ -24,17 +24,13 @@
 
 ## 🎯 Status Update
 
-**V1 Core Build: Complete ✅**  
-**Current Phase:** Compliance & Security Review
-
 - ✅ Backend & Frontend: All V1 features implemented and validated
 - ✅ AI Engine: Multi-agent system operational in staging
 - 🔄 Gmail API Restricted Scope security assessment in progress
-- 🎯 **Public Beta Launch:** Q3 2026
 
 ---
 
-## 📉 The Problem
+## 📉 Problem
 
 Job hunting is broken. The application process is:
 
@@ -57,13 +53,6 @@ Job hunting is broken. The application process is:
 ## 💡 The Solution
 
 GenApply transforms job applications from a tedious manual process into an intelligent, automated workflow — **while keeping you in full control**.
-
-<p align="center">
-  <img src="assets/logo.png" width="800"/>
-
-  <br>
-  <em>Complete application workflow: from job posting to ready-to-send email in under 2 minutes</em>
-</p>
 
 ### How It Works
 
