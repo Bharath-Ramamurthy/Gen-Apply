@@ -415,7 +415,6 @@ Copyright © 2025 Bharath R. All rights reserved.
 
 <p align="center">
   <strong>Built with ❤️ by Bharath R</strong><br>
-  <em>Making job hunting efficient, one application at a time</em>
 </p>
 
 <p align="center">
