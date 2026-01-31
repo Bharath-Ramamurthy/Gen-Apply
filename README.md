@@ -23,6 +23,9 @@
 <p align="center">
   <em>Complete workflow: Job analysis → Resume tailoring → Cover letter → Email draft in under 2 minutes</em>
 </p>
+
+
+---
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-009688.svg?style=flat&logo=FastAPI&logoColor=white)](https://fastapi.tiangolo.com)
 [![Flutter](https://img.shields.io/badge/Flutter-3.19.0-02569B.svg?style=flat&logo=Flutter&logoColor=white)](https://flutter.dev)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
