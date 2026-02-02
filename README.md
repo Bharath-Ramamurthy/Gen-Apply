@@ -17,7 +17,7 @@
 ---
 
 <p align="center">
-  <img src="assets/demo.gif" alt="GenApply Demo" width="800"/>
+ ![](https://github.com/Bharath-Ramamurthy/gen-apply/blob/main/demo.gif)
 </p>
 
 <p align="center">
