@@ -142,32 +142,6 @@ GenApply uses **coordinated multi-agent architecture** where specialized AI agen
 
 **Solution:** Autonomous diagnostic layer that monitors executions and auto-recovers from failures.
 
-<div align="center">
-
-<pre>
-┌─────────────────────────────────────────────┐
-│         Auto-Diagnostic Agent               │
-│  ┌─────────────────────────────────────┐   │
-│  │   Continuous Monitoring Layer       │   │
-│  └──────────────┬──────────────────────┘   │
-│                 │                           │
-│  ┌──────────────▼──────────────┐           │
-│  │  Error Pattern Detection    │           │
-│  └──────────────┬──────────────┘           │
-│                 │                           │
-│  ┌──────────────▼──────────────┐           │
-│  │   Recovery Strategy Engine  │           │
-│  └──────────────┬──────────────┘           │
-│                 │                           │
-│  ┌──────────────▼──────────────┐           │
-│  │  Automated Healing Actions  │           │
-│  └─────────────────────────────┘           │
-└─────────────────────────────────────────────┘
-</pre>
-
-</div>
-
-
 **Recovery Strategies:**
 
 | Error Type | Detection | Recovery |
