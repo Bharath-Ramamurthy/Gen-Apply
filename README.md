@@ -42,17 +42,6 @@
 
 ---
 
-## 📊 Impact Metrics
-
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| **Time per application** | 45-60 min | 5-8 min | **85% faster** |
-| **System reliability** | ~65% | 94%+ | **+60%** |
-| **Database load** | Baseline | Optimized | **-50%** |
-| **Manual interventions** | ~40/week | ~6/week | **-85%** |
-
----
-
 ## 📉 Problem
 
 Job applications are broken:
