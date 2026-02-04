@@ -294,20 +294,33 @@ http://localhost:8000/auth/gmail/login
 ```
 gen-apply/
 ├── app/
-│   ├── agents/              # Multi-agent system
+│   ├── agents/                # Multi-agent system
 │   │   ├── base_agent.py
 │   │   ├── resume_agent.py
 │   │   ├── cover_letter_agent.py
-│   │   ├── email_agent.py
-│   ├── connectors/
-│   │   └── /          # FastAPI endpoints
-│   ├── config/
-│   │   ├── credentials.json # Gmail OAuth (gitignored)
-│   │   └── token.json       # Auto-generated (gitignored)
-│   ├── llm/
-│   │   └── factory.py       # LLM provider factory
-│   ├── models/              # SQLAlchemy models
-│   └── services/            # Business logic
+│   │   └── email_agent.py
+│   ├── connectors/            # Connector classes / FastAPI endpoints
+│   │   ├── __init__.py
+│   │   ├── base_connector.py
+│   │   ├── openai_connector.py
+│   │   ├── hf_connector.py
+│   │   ├── http_connector.py
+│   │   └── factory.py
+│   ├── email_utils/           # Gmail sending utilities
+│   │   ├── __init__.py
+│   │   └── gmail_sender.py
+│   ├── file_utils/            # File handling utilities
+│   │   ├── __init__.py
+│   │   ├── file_parser.py
+│   │   └── pdf_generator.py
+│   └── prompts/               # YAML prompts for agents
+│       
+├── core/                      # Core utilities, logging, contracts
+│   ├── __init__.py
+│   ├── logger.py
+│   ├── exceptions.py
+│   ├── contract.py
+│   └── prompt_loader.py
 └── main.py                  # Streamlit
 └── env.example              #Example ENV File
 └── README.md
@@ -329,7 +342,6 @@ gen-apply/
 - [x] Multi-LLM provider support
 - [x] Gmail OAuth2 integration
 - [x] RAG-based resume tailoring
-- [x] User dashboard and controls
 
 ### 🔮 Planned
 - [ ] LinkedIn auto-apply integration
