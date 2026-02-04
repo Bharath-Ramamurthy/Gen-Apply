@@ -15,9 +15,6 @@
 </p>
 
 ---
-![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/demo.gif)
-![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/architecture_gen_apply.gif)
-
 
 <p align="center">
   <em>Complete workflow: Job analysis → Resume tailoring → Cover letter → Email draft in under 2 minutes</em>
@@ -84,33 +81,8 @@ GenApply automates the entire workflow while keeping users in full control:
 ### Multi-Agent System
 
 GenApply uses **coordinated multi-agent architecture** where specialized AI agents handle different workflow stages:
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                       GenApply Platform                         │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-   ┌────▼────┐          ┌────▼────┐          ┌────▼────┐
-   │   Job   │          │ Resume  │          │  Cover  │
-   │Analyzer │──────────│ Tailor  │──────────│ Letter  │
-   │  Agent  │          │  Agent  │          │  Agent  │
-   └────┬────┘          └────┬────┘          └────┬────┘
-        │                     │                     │
-        └─────────────────────┼─────────────────────┘
-                              │
-                        ┌─────▼─────┐
-                        │   Email   │
-                        │ Composer  │
-                        │   Agent   │
-                        └─────┬─────┘
-                              │
-                    ┌─────────▼─────────┐
-                    │ Auto-Diagnostic   │
-                    │      Agent        │
-                    │ (Monitors & Heals)│
-                    └───────────────────┘
-```
+![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/architecture_gen_apply.gif)
+
 
 **Agent Responsibilities:**
 
@@ -375,8 +347,7 @@ gen-apply/
 ---
 
 ## 🎥 Demo
-
-▶️ **[Watch Full Demo Video](https://www.youtube.com/watch?v=Y0BHGISzkck)**
+![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/demo.gif)
 
 ---
 
