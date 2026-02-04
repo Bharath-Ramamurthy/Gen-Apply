@@ -70,6 +70,7 @@ GenApply automates the entire workflow while keeping users in full control:
 ### Multi-Agent System
 
 GenApply uses **coordinated multi-agent architecture** where specialized AI agents handle different workflow stages:
+
 ![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/architecture_gen_apply.gif)
 
 
@@ -140,7 +141,10 @@ GenApply uses **coordinated multi-agent architecture** where specialized AI agen
 **Challenge:** AI systems fail unpredictably (API rate limits, network issues, context overflow) requiring manual intervention.
 
 **Solution:** Autonomous diagnostic layer that monitors executions and auto-recovers from failures.
-```
+
+<div align="center">
+
+<pre>
 ┌─────────────────────────────────────────────┐
 │         Auto-Diagnostic Agent               │
 │  ┌─────────────────────────────────────┐   │
@@ -159,7 +163,10 @@ GenApply uses **coordinated multi-agent architecture** where specialized AI agen
 │  │  Automated Healing Actions  │           │
 │  └─────────────────────────────┘           │
 └─────────────────────────────────────────────┘
-```
+</pre>
+
+</div>
+
 
 **Recovery Strategies:**
 
