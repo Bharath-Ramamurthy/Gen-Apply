@@ -15,7 +15,8 @@
 </p>
 
 ---
-![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/demo.gif)
+![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/demo.gif)
+![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/architecture_gen_apply.gif)
 
 
 <p align="center">
