@@ -65,14 +65,20 @@ GenApply automates the entire workflow while keeping users in full control:
 
 ---
 
-## 🏗️ Architecture
-
+##  Architecture & Demo 
+### System Architecture (High Level)
 ### Multi-Agent System
-
 GenApply uses **coordinated multi-agent architecture** where specialized AI agents handle different workflow stages:
+<p align="center">
+  <img src="assets//assets/architecture_gen_apply.gif" width="650" />
+</p>
 
-![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/architecture_gen_apply.gif)
+### Live Demo
+<p align="center">
+  <img src="assets/demo.gif" width="650" />
+</p>
 
+---
 
 **Agent Responsibilities:**
 
@@ -326,29 +332,6 @@ gen-apply/
 └── README.md
 └── requirements.txt
 ```
-
----
-
-## 🎥 Demo
-![](https://raw.githubusercontent.com/Bharath-Ramamurthy/gen-apply/main/assets/demo.gif)
-
----
-
-## 🗓️ Roadmap
-
-### ✅ Completed
-- [x] Multi-agent system implementation
-- [x] Auto-diagnostic error recovery
-- [x] Multi-LLM provider support
-- [x] Gmail OAuth2 integration
-- [x] RAG-based resume tailoring
-
-### 🔮 Planned
-- [ ] LinkedIn auto-apply integration
-- [ ] Application tracking analytics
-- [ ] Interview preparation assistant
-- [ ] Chrome extension
-- [ ] Mobile app (iOS/Android)
 
 ---
 
