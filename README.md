@@ -101,7 +101,7 @@ GenApply uses **coordinated multi-agent architecture** where specialized AI agen
 
 **Backend & AI**
 - FastAPI – Async API framework
-- LangChain – Multi-agent orchestration
+- LangChain and LangGraph – Multi-agent orchestration
 - RAG Architecture – Context-aware resume tailoring
 - FAISS – Vector similarity search
 
@@ -306,6 +306,7 @@ gen-apply/
 │   │   ├── resume_agent.py
 │   │   ├── cover_letter_agent.py
 │   │   └── email_agent.py
+│   │   └── orchestrator.py
 │   ├── connectors/            # Connector classes / FastAPI endpoints
 │   │   ├── __init__.py
 │   │   ├── base_connector.py
@@ -313,6 +314,7 @@ gen-apply/
 │   │   ├── hf_connector.py
 │   │   ├── http_connector.py
 │   │   └── factory.py
+│   │   └── diagnostic_tools.py
 │   ├── email_utils/           # Gmail sending utilities
 │   │   ├── __init__.py
 │   │   └── gmail_sender.py
@@ -325,6 +327,7 @@ gen-apply/
 ├── core/                      # Core utilities, logging, contracts
 │   ├── __init__.py
 │   ├── logger.py
+│   ├── exceptions.py
 │   ├── exceptions.py
 │   ├── contract.py
 │   └── prompt_loader.py
