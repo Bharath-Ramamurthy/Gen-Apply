@@ -69,8 +69,9 @@ GenApply automates the entire workflow while keeping users in full control:
 ### System Architecture (High Level)
 ### Multi-Agent System
 GenApply uses **coordinated multi-agent architecture** where specialized AI agents handle different workflow stages:
+
 <p align="center">
-  <img src="assets//assets/architecture_gen_apply.gif" width="650" />
+  <img src="assets/architecture_gen_apply.gif" width="650" />
 </p>
 
 ### Live Demo
