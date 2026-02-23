@@ -162,10 +162,6 @@ llm = LLMFactory.create(
 
 **Frontend:** Streamlit
 
-**Storage:** PostgreSQL · SQLAlchemy
-
-**Auth:** JWT · OAuth2 (Gmail API)
-
 **PDF Processing:** pdfplumber · ReportLab
 
 ---
